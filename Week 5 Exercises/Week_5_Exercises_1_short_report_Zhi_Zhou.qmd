@@ -1,0 +1,61 @@
+---
+title: "Privacy and Data Protection"
+author: "Zhi Zhou"
+date: "2026-10-03"
+date-format: "YYYY-MM-DD"
+lang: en-GB
+format:
+  pdf:
+    pdf-engine: xelatex
+    documentclass: article
+    papersize: a4
+    fontsize: 11pt
+    geometry:
+      - margin=23mm
+    colorlinks: true
+    toc: false
+    number-sections: false
+  html:
+    embed-resources: true
+    toc: false
+    number-sections: false
+---
+
+This report uses Google Account as an example. I have not tested the settings, exported the data or sent an access request for this exercise. The analysis uses official published sources.
+
+## 1. Consent
+
+Google describes controls for history and personalised ads. [3] Where processing relies on consent (Art 6(1)(a)), the choice must be freely given, specific, informed and unambiguous (Art 4(11)). Silence and pre-ticked boxes do not count as consent (Recital 32). [1, 2]
+
+The first check is whether Gmail and YouTube remain usable after refusing optional processing. Less personalisation alone does not make consent invalid, while blocking a core service or imposing an unjustified disadvantage raises concerns under Art 7(4) and Recital 43. Distinct purposes need separate choices; saving history and using data for ads are purposes to examine separately. [2]
+
+The notice should explain who uses the data, which data, why, and how to withdraw consent. In a written declaration covering other matters, the consent request must be clear, accessible and distinguishable (Art 7(2)). Arts 13 and 14 set out the wider information duties. [1, 2]
+
+Withdrawal must be as easy as giving consent (Art 7(3)), and Google must be able to demonstrate consent (Art 7(1)). An on/off switch alone cannot show what the user was told before agreeing. The controls Google describes support choice, but the actual notice and the refusal and withdrawal steps still need checking. [2, 3]
+
+## 2. Access to my data
+
+My plan starts with Google Takeout. It exports data from many services, but preparation can take minutes or days and some personal data are unavailable through it. [5] Art 20 portability applies to eligible data provided by the individual and processed automatically on the basis of consent or a contract. [1]
+
+Under Art 15, I can request confirmation of processing and access to my data, including a copy under Art 15(3). The response should explain the data categories, purposes, recipients and retention period or criteria. It also covers relevant rights, the right to complain, and sources of data not collected from me. Where applicable, it must explain safeguards for international transfers (Art 15(2)) and provide meaningful information about the logic and expected impact of automated decisions covered by Art 22(1) and (4), including profiling. [4]
+
+The export would cover Gmail and YouTube, with the files checked against the selected services. Dashboard, account settings and the privacy policy provide further information. Any missing personal data, including inferences about me, and information about recipients or retention can be requested through the Privacy Help Center form. Google's specialist team reviews requests individually and may verify identity or ask for clarification. I would keep the request and response dates and check whether the reply addresses the processing relevant to my request. [3-5]
+
+Google should reply without undue delay and within one month of receipt. If complexity or the number of requests makes an extension necessary, two further months are allowed, with notice and reasons within the first month (Art 12(3)). Access is normally free (Art 12(5)). The information can be spread across several pages if the whole reply is complete, clear and accessible. Identity checks should be proportionate. [1, 4]
+
+## 3. Anonymisation and pseudonymisation
+
+A study ID can still be linked to a patient through a separate identity table. This is **pseudonymisation** if attribution requires additional information, kept separately and protected by technical and organisational measures (Art 4(5)). For a controller able to identify the patient, the data remain personal data. Art 32(1)(a) recognises pseudonymisation as a security measure. [1]
+
+**Anonymisation** requires identification to be no longer reasonably possible, including through links with other data. The test considers reasonably likely means, time, cost and available technology (Art 4(1), Recital 26). Removing names alone may be insufficient. Truly anonymous data fall outside the GDPR. [1]
+
+The recipient's position matters too. In *EDPS v SRB* (C-413/23 P, 4 September 2025), under Regulation (EU) 2018/1725, the CJEU clarified that pseudonymised data are not necessarily personal data for every recipient. The means reasonably available to identify people matter. The controller's information duty is assessed from its perspective at collection, before transfer. The Court set aside the General Court's judgment and sent the case back; it did not finally decide that Deloitte's dataset was non-personal. [6]
+
+## Sources
+
+1. European Union. [Regulation (EU) 2016/679 (GDPR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679), Arts 4, 6, 7, 12-15, 20 and 32; Recitals 26, 32 and 43.
+2. EDPB. [Guidelines 05/2020 on consent](https://www.edpb.europa.eu/system/files/documents/files/file1/edpb_guidelines_202005_consent_en.pdf), sections 3 and 5.
+3. Google. [Privacy Policy](https://policies.google.com/privacy?hl=en).
+4. EDPB. [Guidelines 01/2022 on the right of access, version 2.1](https://www.edpb.europa.eu/system/files/documents/2023-04/edpb_guidelines_202201_data_subject_rights_access_v2_en.pdf).
+5. Google. [How to download your Google data](https://support.google.com/accounts/answer/3024190?hl=en) and [Privacy Help Center](https://support.google.com/policies/answer/9581826?hl=en).
+6. CJEU. [EDPS v SRB, C-413/23 P, judgment of 4 September 2025](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62023CJ0413), paras 86 and 111-112; [official press release 107/25](https://curia.europa.eu/jcms/jcms/p1_5127926).
